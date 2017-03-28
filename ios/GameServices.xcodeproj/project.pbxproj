@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3073AE41BE2C77C00EC89B7 /* GameServices.m in Sources */ = {isa = PBXBuildFile; fileRef = C3073AD71BE2C77C00EC89B7 /* GameServices.m */; };
+		C3073AE81BE2C77C00EC89B7 /* InitFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3073AE21BE2C77C00EC89B7 /* InitFunction.m */; };
+		C31467281DA2E84A009AD593 /* AIRExtHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31467271DA2E84A009AD593 /* AIRExtHelpers.framework */; };
+		C31467451DA2E9EB009AD593 /* IncrementAchievementFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C314673E1DA2E9EB009AD593 /* IncrementAchievementFunction.m */; };
+		C31467461DA2E9EB009AD593 /* SetAchievementProgressFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467401DA2E9EB009AD593 /* SetAchievementProgressFunction.m */; };
+		C31467471DA2E9EB009AD593 /* SetAchievementStepsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467421DA2E9EB009AD593 /* SetAchievementStepsFunction.m */; };
+		C31467481DA2E9EB009AD593 /* UnlockAchievementFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467441DA2E9EB009AD593 /* UnlockAchievementFunction.m */; };
+		C314674E1DA2F04F009AD593 /* LoadAchievementsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C314674D1DA2F04F009AD593 /* LoadAchievementsFunction.m */; };
+		C31467511DA30E5B009AD593 /* ShowAchievementBannerFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467501DA30E5B009AD593 /* ShowAchievementBannerFunction.m */; };
+		C31467541DA31376009AD593 /* GKAchievementUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467531DA31376009AD593 /* GKAchievementUtils.m */; };
+		C31467571DA3B651009AD593 /* ShowAchievementsUIFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467561DA3B651009AD593 /* ShowAchievementsUIFunction.m */; };
+		C314675A1DA3C049009AD593 /* IsAuthenticatedFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467591DA3C049009AD593 /* IsAuthenticatedFunction.m */; };
+		C31467601DA3DF46009AD593 /* ReportAchievementsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C314675F1DA3DF46009AD593 /* ReportAchievementsFunction.m */; };
+		C31467631DA3E4EF009AD593 /* ResetAchievementsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467621DA3E4EF009AD593 /* ResetAchievementsFunction.m */; };
+		C31467661DA4291F009AD593 /* SignOutFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C31467651DA4291F009AD593 /* SignOutFunction.m */; };
+		C39C07D31E899D8C0097C8AF /* ReportScoreFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C39C07D21E899D8C0097C8AF /* ReportScoreFunction.m */; };
+		C39C07D61E899F7C0097C8AF /* ShowLeaderboardsUIFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C39C07D51E899F7C0097C8AF /* ShowLeaderboardsUIFunction.m */; };
+		C3A53B1C1E7B2A0D00BDC47E /* RevealAchievement.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A53B1B1E7B2A0D00BDC47E /* RevealAchievement.m */; };
+		C3B474771D2312E5003CF0F4 /* GameServicesDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B474761D2312E5003CF0F4 /* GameServicesDelegate.m */; };
+		C3B474791D231301003CF0F4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B474781D231301003CF0F4 /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C3B474801D2330C1003CF0F4 /* GKPlayerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B4747F1D2330C1003CF0F4 /* GKPlayerUtils.m */; };
+		C3C37D0E1D23BCBF005541F1 /* IsSupportedFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C37D0D1D23BCBF005541F1 /* IsSupportedFunction.m */; };
+		C3C37D111D23C50F005541F1 /* AuthenticateFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C37D101D23C50F005541F1 /* AuthenticateFunction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C35331DC1B7BCE8A003A7521 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3073AD61BE2C77C00EC89B7 /* GameServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameServices.h; sourceTree = "<group>"; };
+		C3073AD71BE2C77C00EC89B7 /* GameServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameServices.m; sourceTree = "<group>"; };
+		C3073AE11BE2C77C00EC89B7 /* InitFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitFunction.h; sourceTree = "<group>"; };
+		C3073AE21BE2C77C00EC89B7 /* InitFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitFunction.m; sourceTree = "<group>"; };
+		C31467271DA2E84A009AD593 /* AIRExtHelpers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIRExtHelpers.framework; sourceTree = "<group>"; };
+		C314673D1DA2E9EB009AD593 /* IncrementAchievementFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IncrementAchievementFunction.h; path = Achievements/IncrementAchievementFunction.h; sourceTree = "<group>"; };
+		C314673E1DA2E9EB009AD593 /* IncrementAchievementFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IncrementAchievementFunction.m; path = Achievements/IncrementAchievementFunction.m; sourceTree = "<group>"; };
+		C314673F1DA2E9EB009AD593 /* SetAchievementProgressFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetAchievementProgressFunction.h; path = Achievements/SetAchievementProgressFunction.h; sourceTree = "<group>"; };
+		C31467401DA2E9EB009AD593 /* SetAchievementProgressFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetAchievementProgressFunction.m; path = Achievements/SetAchievementProgressFunction.m; sourceTree = "<group>"; };
+		C31467411DA2E9EB009AD593 /* SetAchievementStepsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetAchievementStepsFunction.h; path = Achievements/SetAchievementStepsFunction.h; sourceTree = "<group>"; };
+		C31467421DA2E9EB009AD593 /* SetAchievementStepsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetAchievementStepsFunction.m; path = Achievements/SetAchievementStepsFunction.m; sourceTree = "<group>"; };
+		C31467431DA2E9EB009AD593 /* UnlockAchievementFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnlockAchievementFunction.h; path = Achievements/UnlockAchievementFunction.h; sourceTree = "<group>"; };
+		C31467441DA2E9EB009AD593 /* UnlockAchievementFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnlockAchievementFunction.m; path = Achievements/UnlockAchievementFunction.m; sourceTree = "<group>"; };
+		C314674C1DA2F04F009AD593 /* LoadAchievementsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadAchievementsFunction.h; path = Achievements/LoadAchievementsFunction.h; sourceTree = "<group>"; };
+		C314674D1DA2F04F009AD593 /* LoadAchievementsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadAchievementsFunction.m; path = Achievements/LoadAchievementsFunction.m; sourceTree = "<group>"; };
+		C314674F1DA30E5B009AD593 /* ShowAchievementBannerFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAchievementBannerFunction.h; path = Achievements/ShowAchievementBannerFunction.h; sourceTree = "<group>"; };
+		C31467501DA30E5B009AD593 /* ShowAchievementBannerFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAchievementBannerFunction.m; path = Achievements/ShowAchievementBannerFunction.m; sourceTree = "<group>"; };
+		C31467521DA31376009AD593 /* GKAchievementUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKAchievementUtils.h; path = Utils/GKAchievementUtils.h; sourceTree = "<group>"; };
+		C31467531DA31376009AD593 /* GKAchievementUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKAchievementUtils.m; path = Utils/GKAchievementUtils.m; sourceTree = "<group>"; };
+		C31467551DA3B651009AD593 /* ShowAchievementsUIFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAchievementsUIFunction.h; path = Achievements/ShowAchievementsUIFunction.h; sourceTree = "<group>"; };
+		C31467561DA3B651009AD593 /* ShowAchievementsUIFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAchievementsUIFunction.m; path = Achievements/ShowAchievementsUIFunction.m; sourceTree = "<group>"; };
+		C31467581DA3C049009AD593 /* IsAuthenticatedFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsAuthenticatedFunction.h; sourceTree = "<group>"; };
+		C31467591DA3C049009AD593 /* IsAuthenticatedFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsAuthenticatedFunction.m; sourceTree = "<group>"; };
+		C314675E1DA3DF46009AD593 /* ReportAchievementsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReportAchievementsFunction.h; path = Achievements/ReportAchievementsFunction.h; sourceTree = "<group>"; };
+		C314675F1DA3DF46009AD593 /* ReportAchievementsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReportAchievementsFunction.m; path = Achievements/ReportAchievementsFunction.m; sourceTree = "<group>"; };
+		C31467611DA3E4EF009AD593 /* ResetAchievementsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResetAchievementsFunction.h; path = Achievements/ResetAchievementsFunction.h; sourceTree = "<group>"; };
+		C31467621DA3E4EF009AD593 /* ResetAchievementsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResetAchievementsFunction.m; path = Achievements/ResetAchievementsFunction.m; sourceTree = "<group>"; };
+		C31467641DA4291F009AD593 /* SignOutFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignOutFunction.h; sourceTree = "<group>"; };
+		C31467651DA4291F009AD593 /* SignOutFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignOutFunction.m; sourceTree = "<group>"; };
+		C35331DE1B7BCE8A003A7521 /* libGameServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameServices.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39C07D11E899D8C0097C8AF /* ReportScoreFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReportScoreFunction.h; path = Leaderboards/ReportScoreFunction.h; sourceTree = "<group>"; };
+		C39C07D21E899D8C0097C8AF /* ReportScoreFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReportScoreFunction.m; path = Leaderboards/ReportScoreFunction.m; sourceTree = "<group>"; };
+		C39C07D41E899F7C0097C8AF /* ShowLeaderboardsUIFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowLeaderboardsUIFunction.h; path = Leaderboards/ShowLeaderboardsUIFunction.h; sourceTree = "<group>"; };
+		C39C07D51E899F7C0097C8AF /* ShowLeaderboardsUIFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowLeaderboardsUIFunction.m; path = Leaderboards/ShowLeaderboardsUIFunction.m; sourceTree = "<group>"; };
+		C3A53B1A1E7B2A0D00BDC47E /* RevealAchievement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RevealAchievement.h; path = Achievements/RevealAchievement.h; sourceTree = "<group>"; };
+		C3A53B1B1E7B2A0D00BDC47E /* RevealAchievement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RevealAchievement.m; path = Achievements/RevealAchievement.m; sourceTree = "<group>"; };
+		C3B474751D2312E5003CF0F4 /* GameServicesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameServicesDelegate.h; path = Utils/GameServicesDelegate.h; sourceTree = "<group>"; };
+		C3B474761D2312E5003CF0F4 /* GameServicesDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameServicesDelegate.m; path = Utils/GameServicesDelegate.m; sourceTree = "<group>"; };
+		C3B474781D231301003CF0F4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C3B4747D1D231AFD003CF0F4 /* GameServicesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameServicesEvent.h; sourceTree = "<group>"; };
+		C3B4747E1D2330C1003CF0F4 /* GKPlayerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKPlayerUtils.h; path = Utils/GKPlayerUtils.h; sourceTree = "<group>"; };
+		C3B4747F1D2330C1003CF0F4 /* GKPlayerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKPlayerUtils.m; path = Utils/GKPlayerUtils.m; sourceTree = "<group>"; };
+		C3C37D0C1D23BCBF005541F1 /* IsSupportedFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsSupportedFunction.h; sourceTree = "<group>"; };
+		C3C37D0D1D23BCBF005541F1 /* IsSupportedFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsSupportedFunction.m; sourceTree = "<group>"; };
+		C3C37D0F1D23C50F005541F1 /* AuthenticateFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticateFunction.h; sourceTree = "<group>"; };
+		C3C37D101D23C50F005541F1 /* AuthenticateFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticateFunction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35331DB1B7BCE8A003A7521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B474791D231301003CF0F4 /* GameKit.framework in Frameworks */,
+				C31467281DA2E84A009AD593 /* AIRExtHelpers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3073AD51BE2C77C00EC89B7 /* GameServices */ = {
+			isa = PBXGroup;
+			children = (
+				C37509F81C79388900516C15 /* Frameworks */,
+				C3073AD61BE2C77C00EC89B7 /* GameServices.h */,
+				C3073AD71BE2C77C00EC89B7 /* GameServices.m */,
+				C3073ADC1BE2C77C00EC89B7 /* Data */,
+				C3073AE01BE2C77C00EC89B7 /* Functions */,
+				C3B474741D2312CF003CF0F4 /* Utils */,
+			);
+			path = GameServices;
+			sourceTree = "<group>";
+		};
+		C3073ADC1BE2C77C00EC89B7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C3B4747D1D231AFD003CF0F4 /* GameServicesEvent.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C3073AE01BE2C77C00EC89B7 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C314673C1DA2E9E4009AD593 /* Achievements */,
+				C39C07D01E899C770097C8AF /* Leaderboards */,
+				C3C37D0F1D23C50F005541F1 /* AuthenticateFunction.h */,
+				C3C37D101D23C50F005541F1 /* AuthenticateFunction.m */,
+				C3073AE11BE2C77C00EC89B7 /* InitFunction.h */,
+				C3073AE21BE2C77C00EC89B7 /* InitFunction.m */,
+				C3C37D0C1D23BCBF005541F1 /* IsSupportedFunction.h */,
+				C3C37D0D1D23BCBF005541F1 /* IsSupportedFunction.m */,
+				C31467581DA3C049009AD593 /* IsAuthenticatedFunction.h */,
+				C31467591DA3C049009AD593 /* IsAuthenticatedFunction.m */,
+				C31467641DA4291F009AD593 /* SignOutFunction.h */,
+				C31467651DA4291F009AD593 /* SignOutFunction.m */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		C314673C1DA2E9E4009AD593 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				C314675E1DA3DF46009AD593 /* ReportAchievementsFunction.h */,
+				C314675F1DA3DF46009AD593 /* ReportAchievementsFunction.m */,
+				C314673D1DA2E9EB009AD593 /* IncrementAchievementFunction.h */,
+				C314673E1DA2E9EB009AD593 /* IncrementAchievementFunction.m */,
+				C314673F1DA2E9EB009AD593 /* SetAchievementProgressFunction.h */,
+				C31467401DA2E9EB009AD593 /* SetAchievementProgressFunction.m */,
+				C31467411DA2E9EB009AD593 /* SetAchievementStepsFunction.h */,
+				C31467421DA2E9EB009AD593 /* SetAchievementStepsFunction.m */,
+				C31467431DA2E9EB009AD593 /* UnlockAchievementFunction.h */,
+				C31467441DA2E9EB009AD593 /* UnlockAchievementFunction.m */,
+				C314674C1DA2F04F009AD593 /* LoadAchievementsFunction.h */,
+				C314674D1DA2F04F009AD593 /* LoadAchievementsFunction.m */,
+				C314674F1DA30E5B009AD593 /* ShowAchievementBannerFunction.h */,
+				C31467501DA30E5B009AD593 /* ShowAchievementBannerFunction.m */,
+				C31467551DA3B651009AD593 /* ShowAchievementsUIFunction.h */,
+				C31467561DA3B651009AD593 /* ShowAchievementsUIFunction.m */,
+				C31467611DA3E4EF009AD593 /* ResetAchievementsFunction.h */,
+				C31467621DA3E4EF009AD593 /* ResetAchievementsFunction.m */,
+				C3A53B1A1E7B2A0D00BDC47E /* RevealAchievement.h */,
+				C3A53B1B1E7B2A0D00BDC47E /* RevealAchievement.m */,
+			);
+			name = Achievements;
+			sourceTree = "<group>";
+		};
+		C35331D51B7BCE8A003A7521 = {
+			isa = PBXGroup;
+			children = (
+				C3073AD51BE2C77C00EC89B7 /* GameServices */,
+				C35331DF1B7BCE8A003A7521 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35331DF1B7BCE8A003A7521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35331DE1B7BCE8A003A7521 /* libGameServices.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37509F81C79388900516C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C31467271DA2E84A009AD593 /* AIRExtHelpers.framework */,
+				C3B474781D231301003CF0F4 /* GameKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C39C07D01E899C770097C8AF /* Leaderboards */ = {
+			isa = PBXGroup;
+			children = (
+				C39C07D11E899D8C0097C8AF /* ReportScoreFunction.h */,
+				C39C07D21E899D8C0097C8AF /* ReportScoreFunction.m */,
+				C39C07D41E899F7C0097C8AF /* ShowLeaderboardsUIFunction.h */,
+				C39C07D51E899F7C0097C8AF /* ShowLeaderboardsUIFunction.m */,
+			);
+			name = Leaderboards;
+			sourceTree = "<group>";
+		};
+		C3B474741D2312CF003CF0F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3B474751D2312E5003CF0F4 /* GameServicesDelegate.h */,
+				C3B474761D2312E5003CF0F4 /* GameServicesDelegate.m */,
+				C3B4747E1D2330C1003CF0F4 /* GKPlayerUtils.h */,
+				C3B4747F1D2330C1003CF0F4 /* GKPlayerUtils.m */,
+				C31467521DA31376009AD593 /* GKAchievementUtils.h */,
+				C31467531DA31376009AD593 /* GKAchievementUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35331DD1B7BCE8A003A7521 /* GameServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35331F21B7BCE8A003A7521 /* Build configuration list for PBXNativeTarget "GameServices" */;
+			buildPhases = (
+				C35331DA1B7BCE8A003A7521 /* Sources */,
+				C35331DB1B7BCE8A003A7521 /* Frameworks */,
+				C35331DC1B7BCE8A003A7521 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameServices;
+			productName = GameServices;
+			productReference = C35331DE1B7BCE8A003A7521 /* libGameServices.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35331D61B7BCE8A003A7521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = marpies;
+				TargetAttributes = {
+					C35331DD1B7BCE8A003A7521 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C35331D91B7BCE8A003A7521 /* Build configuration list for PBXProject "GameServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C35331D51B7BCE8A003A7521;
+			productRefGroup = C35331DF1B7BCE8A003A7521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35331DD1B7BCE8A003A7521 /* GameServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35331DA1B7BCE8A003A7521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C37D111D23C50F005541F1 /* AuthenticateFunction.m in Sources */,
+				C3A53B1C1E7B2A0D00BDC47E /* RevealAchievement.m in Sources */,
+				C3073AE81BE2C77C00EC89B7 /* InitFunction.m in Sources */,
+				C3B474801D2330C1003CF0F4 /* GKPlayerUtils.m in Sources */,
+				C31467471DA2E9EB009AD593 /* SetAchievementStepsFunction.m in Sources */,
+				C31467511DA30E5B009AD593 /* ShowAchievementBannerFunction.m in Sources */,
+				C31467601DA3DF46009AD593 /* ReportAchievementsFunction.m in Sources */,
+				C3073AE41BE2C77C00EC89B7 /* GameServices.m in Sources */,
+				C31467661DA4291F009AD593 /* SignOutFunction.m in Sources */,
+				C31467571DA3B651009AD593 /* ShowAchievementsUIFunction.m in Sources */,
+				C31467481DA2E9EB009AD593 /* UnlockAchievementFunction.m in Sources */,
+				C314675A1DA3C049009AD593 /* IsAuthenticatedFunction.m in Sources */,
+				C3C37D0E1D23BCBF005541F1 /* IsSupportedFunction.m in Sources */,
+				C3B474771D2312E5003CF0F4 /* GameServicesDelegate.m in Sources */,
+				C31467631DA3E4EF009AD593 /* ResetAchievementsFunction.m in Sources */,
+				C31467461DA2E9EB009AD593 /* SetAchievementProgressFunction.m in Sources */,
+				C31467451DA2E9EB009AD593 /* IncrementAchievementFunction.m in Sources */,
+				C39C07D61E899F7C0097C8AF /* ShowLeaderboardsUIFunction.m in Sources */,
+				C31467541DA31376009AD593 /* GKAchievementUtils.m in Sources */,
+				C39C07D31E899D8C0097C8AF /* ReportScoreFunction.m in Sources */,
+				C314674E1DA2F04F009AD593 /* LoadAchievementsFunction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C35331F01B7BCE8A003A7521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SEPARATE_STRIP = YES;
+			};
+			name = Debug;
+		};
+		C35331F11B7BCE8A003A7521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SEPARATE_STRIP = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35331F31B7BCE8A003A7521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GameServices/Frameworks",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C35331F41B7BCE8A003A7521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GameServices/Frameworks",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35331D91B7BCE8A003A7521 /* Build configuration list for PBXProject "GameServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35331F01B7BCE8A003A7521 /* Debug */,
+				C35331F11B7BCE8A003A7521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35331F21B7BCE8A003A7521 /* Build configuration list for PBXNativeTarget "GameServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35331F31B7BCE8A003A7521 /* Debug */,
+				C35331F41B7BCE8A003A7521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35331D61B7BCE8A003A7521 /* Project object */;
+}

@@ -1,0 +1,10 @@
+<platform xmlns="http://ns.adobe.com/air/extension/20.0">
+    <linkerOptions>
+        <option>-ios_version_min 7.0</option>
+        <option>-framework GameKit</option>
+    </linkerOptions>
+
+    <packagedDependencies>
+        <packagedDependency>AIRExtHelpers.framework</packagedDependency>
+    </packagedDependencies>
+</platform>
