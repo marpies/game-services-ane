@@ -262,7 +262,7 @@ package com.marpies.ane.gameservices {
          * Extension version.
          */
         public static function get version():String {
-            return "1.0.0";
+            return "1.0.1";
         }
 
         /**
