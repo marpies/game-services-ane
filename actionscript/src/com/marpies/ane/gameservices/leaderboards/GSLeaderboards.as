@@ -36,6 +36,7 @@ package com.marpies.ane.gameservices.leaderboards {
          * @private
          */
         public function GSLeaderboards() {
+            if( !mCanInitialize ) throw new Error( "GSLeaderboards can only be initialized internally. Access it using GameServices.leaderboards getter." );
         }
 
         /**
