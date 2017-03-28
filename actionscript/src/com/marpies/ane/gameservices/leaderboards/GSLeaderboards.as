@@ -17,12 +17,12 @@ package com.marpies.ane.gameservices.leaderboards {
     public class GSLeaderboards extends EventDispatcher {
 
         /* Event codes */
-        public static const LEADERBOARDS_UI_SHOW:String = "leaderboardsUIShow";
-        public static const LEADERBOARDS_UI_ERROR:String = "leaderboardsUIError";
-        public static const LEADERBOARDS_UI_HIDE:String = "leaderboardsUIHide";
+        private static const LEADERBOARDS_UI_SHOW:String = "leaderboardsUIShow";
+        private static const LEADERBOARDS_UI_ERROR:String = "leaderboardsUIError";
+        private static const LEADERBOARDS_UI_HIDE:String = "leaderboardsUIHide";
 
-        public static const REPORT_SCORE_SUCCESS:String = "reportScoreSuccess";
-        public static const REPORT_SCORE_ERROR:String = "reportScoreError";
+        private static const REPORT_SCORE_SUCCESS:String = "reportScoreSuccess";
+        private static const REPORT_SCORE_ERROR:String = "reportScoreError";
 
         CONFIG::ane {
             private var mContext:ExtensionContext;
