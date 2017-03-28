@@ -153,7 +153,6 @@ static GameServicesDelegate* mAIRGameServicesInstance = nil;
     /* Set leaderboard ID */
     if( leaderboardId != nil ) {
         gameCenterController.leaderboardIdentifier = leaderboardId;
-        [GameServices log:[NSString stringWithFormat:@"Showing LB UI: %@", leaderboardId]];
     }
     
     [[[[[UIApplication sharedApplication] delegate] window] rootViewController] presentViewController:gameCenterController animated:YES completion:^{
