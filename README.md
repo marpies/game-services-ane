@@ -333,6 +333,11 @@ The ANE has been written by [Marcel Piestansky](https://twitter.com/marpies) and
 
 ## Change log
 
+### March 29, 2017
+
+* v1.0.1
+  * Internal refactoring, minor bug fixes
+
 ### March 28, 2017
 
 * v1.0.0
