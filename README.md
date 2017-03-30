@@ -333,6 +333,11 @@ The ANE has been written by [Marcel Piestansky](https://twitter.com/marpies) and
 
 ## Change log
 
+### March 30, 2017
+
+* v1.0.2
+  * Fixed internal `EventDispatcher` initialization
+
 ### March 29, 2017
 
 * v1.0.1
