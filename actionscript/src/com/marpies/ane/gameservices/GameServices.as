@@ -397,7 +397,10 @@ package com.marpies.ane.gameservices {
         }
 
         private static function get eventDispatcher():IEventDispatcher {
-            return mEventDispatcher ||= new EventDispatcher();
+            if( mEventDispatcher == null ) {
+                mEventDispatcher = new EventDispatcher();
+            }
+            return mEventDispatcher;
         }
 
         private static function get isSupportedInternal():Boolean {
